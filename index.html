@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>鑫伟宏图</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/common/jquery.js"></script>
+    <script src="js/common/swiper.jquery.js"></script>
+    <script src="js/common/resize.js"></script>
+    <style>
+        .swiper-container {
+            margin-top: 10px;;
+            height: 30px;
+            line-height:30px;
+        }
+        .swiper-slide{
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: .18rem;;
+        }
+
+    </style>
+</head>
+<body>
+<img src="images/top.jpg" alt="">
+<img src="images/submit.jpg" alt="">
+<script charset="UTF-8" defer>(function(h){function n(a){return null===a?null:a.scrollHeight>a.clientHeight?a:n(a.parentNode)}function t(b){if(b.data){var f=JSON.parse(b.data);!f.height||p||q||(d.style.height=+f.height+"px");if(f.getter){b={};var f=[].concat(f.getter),k,h=f.length,m,c,g,e;for(k=0;k<h;k++){m=k;c=f[k]||{};c.n&&(m=c.n);g=null;try{switch(c.t){case "window":e=window;break;case "scrollParent":e=n(a)||window;break;default:e=a}if(c.e)if("rect"===c.v){g={};var l=e.getBoundingClientRect();g={top:l.top,left:l.left,width:l.width,height:l.height}}else g=e[c.v].apply(e,[].concat(c.e))||!0;else c.s?(e[c.v]=c.s,g=!0):g=e[c.v]||!1}catch(u){}b[m]=g}b.innerState=!p&&!q;a.contentWindow.postMessage(JSON.stringify({queryRes:b}),"*")}}}for(var r=h.document,b=r.documentElement;b.childNodes.length&&1==b.lastChild.nodeType;)b=b.lastChild;var d=b.parentNode,a=r.createElement("iframe");d.style.overflowY="auto";d.style.overflowX="hidden";var p=d.style.height&&"auto"!==d.style.height,q="absolute"===d.style.position||window.getComputedStyle&&"absolute"===window.getComputedStyle(d,null).getPropertyValue("position")||d.currentStyle&&"absolute"===d.currentStyle.position;h.addEventListener&&h.addEventListener("message",t,!1);a.src="http://cn.mikecrm.com/BRgn2HP";a.id="mkinBRgn2HP";a.onload=function(){a.contentWindow.postMessage(JSON.stringify({cif:1}),"*")};a.frameBorder=0;a.scrolling="no";a.style.display="block";a.style.minWidth="100%";a.style.width="100px";a.style.height="100%";a.style.border="none";a.style.overflow="auto";d.insertBefore(a,b)})(window);</script>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <span class="text name">赵先生</span >
+            <span class="text phone">1896****907</span>
+            <span class="text time">37分钟前</span>
+        </div>
+        <div class="swiper-slide">
+            <span class="text name">钱先生</span >
+            <span class="text phone">1806****803</span>
+            <span class="text time">54分钟前</span>
+        </div>
+        <div class="swiper-slide">
+            <span class="text name">孙先生</span >
+            <span class="text phone">1816****704</span>
+            <span class="text time">1小时前</span>
+        </div>
+        <div class="swiper-slide">
+            <span class="text name">李先生</span >
+            <span class="text phone">1556****605</span>
+            <span class="text time">2小时前</span>
+        </div>
+        <div class="swiper-slide">
+            <span class="text name">周先生</span >
+            <span class="text phone">1506****506</span>
+            <span class="text time">3小时前</span>
+        </div>
+        <div class="swiper-slide">
+            <span class="text name">吴先生</span >
+            <span class="text phone">1306****203</span>
+            <span class="text time">4小时前</span>
+        </div>
+        <div class="swiper-slide">
+            <span class="text name">郑先生</span >
+            <span class="text phone">1316****305</span>
+            <span class="text time">5小时前</span>
+        </div>
+    </div>
+</div>
+
+<img src="images/index.jpg" alt="">
+<p style="font-size: .26rem;font-weight: 600">抢购热线：18995606618</p>
+<p style="font-size: .16rem;line-height: .26rem;">公司电话：027-88874688 </p>
+<p  style="line-height: .24rem;"><b style="font-size: .14rem;">公司地址：武汉市洪山区恒安路366号，火星空间9楼。</b></p>
+<div>
+    <a class="jinru" href="http://m.xwhtzs.com/html/zthd/3273.html" >更多详情点这里 进官网了解</a>
+</div>
+
+<p  class="pad">武汉鑫伟宏图装饰工程有限公司</p>
+<div class="footer">
+    <!--<a style="display: none" class="weixin" href="weixin://13971063727"><div class="icon"></div>微信咨询</a>
+    <a class="tel" href="tel:13971063723"><div class="icon"></div>电话咨询</a>
+    <a class="shouye" href="http://xwhtzs.com/"><div class="icon"></div>官网</a>-->
+    <a style="" class="" href="">官网</a>
+    <a style="" class="" href="">咨询电话</a>
+    <a style="" class="" href="./submit.html">立即报名</a>
+</div>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction : 'vertical',
+        loop : true,
+        autoplay:true,
+        speed:1500,
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+</script>
+
+</body>
+
+</html>
